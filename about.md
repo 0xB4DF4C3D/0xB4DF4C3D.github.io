@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+개발, 포렌식, 웹, 클라우드
+관심있습니다.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+더 잘하고 싶어요.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[dongho971220@gmail.com](mailto:dongho971220@gmail.com)
