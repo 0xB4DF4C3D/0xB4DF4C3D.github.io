@@ -26,7 +26,7 @@ footer-links:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: 
+  twitter:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: channel/UCxJaxAUE7RPPUdHNzSyY7og
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -47,7 +47,7 @@ url: "https://0xb4df4c3d.github.io"
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "/0xB4DF4C3D"
+baseurl: 
 
 #
 # !! You don't need to change any of the configuration flags below !!
