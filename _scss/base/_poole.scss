@@ -76,7 +76,8 @@ a strong {
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
-  text-decoration: underline;
+    color: white;
+    text-shadow: 1px 1px 4px #F0C0C0;
 }
 
 /* Headings */
