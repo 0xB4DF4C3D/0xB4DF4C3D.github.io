@@ -24,7 +24,7 @@ version: 1.0.0
 
 # About/contact
 author:
-  name: 0xF4D3C0D3
+  name: '0xF4D3C0D3'
   description: I like computer, and also something like geeks
   gravatar: 2835edab17b38538a5fdab5f1d11d3d9 # md5 hash of your email address
   contact:
