@@ -7,8 +7,8 @@
 ### Codinfox
 블로그 테마를 제공해 주신 분 이다. 색깔이랑 스타일은 좀 수정함. 다들 한번씩 가서 스타 하나씩 눌러주자.
 
-### jekyll-now
-# Barryclark
+# jekyll-now
+### Barryclark
 이 블로그의 기반이 되는 Jekyll now를 제공해 주신 분이다. ㄳㄳ
 
 # <span style="color:pink">_Thanks for Codinfox & Barryclark_</span>
