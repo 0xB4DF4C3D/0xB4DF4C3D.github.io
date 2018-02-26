@@ -31,7 +31,7 @@ Sentinel 값은 out-of-band 데이터(명시적으로 크기를 나타낸)가 �
 ### 배열
 예를 들어 C에서 배열의 원소를 탐색할 때 간단한 구현법은 다음과 같다; 아무 결과도 반환하지 않는 semipredicate problem을 해결하기 위해 음수(유효하지 않은 인덱스)를 사용한 것에 유의하라.
 
-```C
+{% highlight python %}
 // Returns index of value, -1 for no result
 int find(int* a, int l, int v)
 {
@@ -41,7 +41,7 @@ int find(int* a, int l, int v)
       return i;
   return -1; // -1 means "no result"
 }
-```
+{% endhighlight  %}
 
 그런데 이 방법은 각 스텝마다 검사를 두번한다: 값을 찾았는지, 배열의 끝인지. 후자의 검사는 sentinel값을 통해 생략할 수 있다. 배열이 원소 1개만큼은 확장될 수 있다는 가정하에 (메모리 할당이나 해제 없이; 이것은 아래처럼 링크드리스트에서 더 현실적이다.) 다음처럼 다시 쓰여질 수 있다:
 
