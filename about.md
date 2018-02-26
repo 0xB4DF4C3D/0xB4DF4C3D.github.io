@@ -1,16 +1,8 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
-개발, 포렌식, 웹, 클라우드
-관심있습니다.
-
-### More Information
-
-더 잘하고 싶어요.
-
-### Contact me
-
-[dongho971220@gmail.com](mailto:dongho971220@gmail.com)
+AWS, Forensic, Python, Web 관심있습니다.  
+~~저 나열의 순서는 그냥 알파벳 순서입니다.~~  
+잘하고 싶네요.  
