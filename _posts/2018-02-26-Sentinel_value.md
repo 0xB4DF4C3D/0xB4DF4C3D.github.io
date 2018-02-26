@@ -7,7 +7,7 @@ category: [programming]
 
 https://en.wikipedia.org/wiki/Sentinel_value 를 번역한 글이다. 오역, 의역 있을 수 있으니 주의.
 
-> *[Sentinel node](https://en.wikipedia.org/wiki/Sentinel_node)  또는 [Canary value](https://en.wikipedia.org/wiki/Canary_value) 와 혼동하지 말것._*
+> *[Sentinel node](https://en.wikipedia.org/wiki/Sentinel_node)  또는 [Canary value](https://en.wikipedia.org/wiki/Canary_value) 와 혼동하지 말것.*
 
 컴퓨터 프로그래밍에서 Sentinel 값(flag value, trip value, rogue value, signal value 또는 dummy data등으로도 불림)은 보통 루프나 재귀 알고리즘같은 곳에서 종료 조건으로 쓰이는 알고리즘의 특수한 값이다.
 _(역주: Sentinel이란 뜻을 한국어로 마땅히 쓸말이 없어 그대로 표기함. 일관성을 위해 다른 명칭도 동일하게 적용.)_
