@@ -5,7 +5,7 @@ title: Sentinel value
 category: [programming]
 ---
 
-https://en.wikipedia.org/wiki/Sentinel_value 를 번역한 글이다. 오역, 의역 있을 수 있으니 주의.
+<https://en.wikipedia.org/wiki/Sentinel_value> 를 번역한 글이다. 오역, 의역 있을 수 있으니 주의.
 
 > *[Sentinel node](https://en.wikipedia.org/wiki/Sentinel_node)  또는 [Canary value](https://en.wikipedia.org/wiki/Canary_value) 와 혼동하지 말것.*
 
@@ -146,7 +146,7 @@ Node* find(List* l, int v)
 - [Time formatting and storage bugs](https://en.wikipedia.org/wiki/Time_formatting_and_storage_bugs)
 
 참고 자료 :
-0. https://en.wikipedia.org/wiki/Sentinel_value
+0. <https://en.wikipedia.org/wiki/Sentinel_value>
 1. Knuth, Donald (1973). The Art of Computer Programming, Volume 1: Fundamental Algorithms (second edition). Addison-Wesley. pp. 213–214, also p. 631. ISBN 0-201-03809-9.
 2. Mehlhorn, Kurt; Sanders, Peter (2008), Algorithms and Data Structures: The Basic Toolbox 3 Representing Sequences by Arrays and Linked Lists (PDF), Springer, ISBN 978-3-540-77977-3 p. 63
 3. McConnell, Steve. "Code Complete" Edition 2 Pg. 621 ISBN 0-7356-1967-0
