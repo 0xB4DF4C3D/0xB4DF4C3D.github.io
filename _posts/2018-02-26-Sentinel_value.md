@@ -31,7 +31,7 @@ Sentinel 값은 out-of-band 데이터(명시적으로 크기를 나타낸)가 �
 ### 배열
 예를 들어 C에서 배열의 원소를 탐색할 때 간단한 구현법은 다음과 같다; 아무 결과도 반환하지 않는 semipredicate problem을 해결하기 위해 음수(유효하지 않은 인덱스)를 사용한 것에 유의하라.
 
-```C
+```c
 // Returns index of value, -1 for no result
 int find(int* a, int l, int v)
 {
@@ -45,7 +45,7 @@ int find(int* a, int l, int v)
 
 그런데 이 방법은 각 스텝마다 검사를 두번한다: 값을 찾았는지, 배열의 끝인지. 후자의 검사는 sentinel값을 통해 생략할 수 있다. 배열이 원소 1개만큼은 확장될 수 있다는 가정하에 (메모리 할당이나 해제 없이; 이것은 아래처럼 링크드리스트에서 더 현실적이다.) 다음처럼 다시 쓰여질 수 있다:
 
-```C
+```c
 int find(int* a, int l, int v)
 {
   int i;
@@ -65,7 +65,7 @@ int find(int* a, int l, int v)
 
 이 경우엔 루프가 while을 사용하여 좀 더 간단하게 표현될 수 있다:
 
-```C
+```c
 int find(int* a, int l, int v)
 {
   int i;
@@ -84,7 +84,7 @@ int find(int* a, int l, int v)
 ### 링크드리스트
 링크드리스트에서 탐색할 때, 다음은 주어진 헤드 노드부터 시작하는 간단한 알고리즘이다; semipredicate 문제를 해결하기 위해 NULL을 사용한것에 유의하라:
 
-```C
+```c
 typedef struct Node{
   Node* next;
   int value;
@@ -107,7 +107,7 @@ Node* find(Node* n, int v)
 
 하지만 만약 마지막 노드가 알려져 있다면, 먼저 마지막 노드 다음에 sentinel 노드를 추가함으로써  최적화 될 수 있다:
 
-```C
+```c
 typedef struct List {
   Node* firstElement;
   Node* lastElement;
