@@ -2,7 +2,7 @@
 comments: true
 layout: post
 title: Using a mutable default value as an argument
-category: [python, anti-pattern]
+category: [Python, Anti-pattern]
 ---
 
 이 글은 [Python anti patterns : mutable default value as argument](https://docs.quantifiedcode.com/python-anti-patterns/correctness/mutable_default_value_as_argument.html)  

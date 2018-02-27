@@ -2,7 +2,7 @@
 comments: true
 layout: post
 title: Sentinel value
-category: [programming]
+category: [Programming]
 ---
 
 <https://en.wikipedia.org/wiki/Sentinel_value> 를 번역한 글이다. 오역, 의역 있을 수 있으니 주의.
