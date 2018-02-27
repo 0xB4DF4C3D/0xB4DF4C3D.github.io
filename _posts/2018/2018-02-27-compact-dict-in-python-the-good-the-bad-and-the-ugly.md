@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Compact Dict란"
+title: "Compact Dict in Python"
 date: "2018-02-27 06:10"
 category: Python
 ---
