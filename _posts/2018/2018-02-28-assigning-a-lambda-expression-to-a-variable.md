@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Assigning a <i>lambda</i> expression to a variable"
+title: "Assigning a lambda expression to a variable"
 date: "2018-02-28 07:39"
 category: [Python, Anti-pattern]
 ---
