@@ -7,8 +7,10 @@ url: https://0xb4df4c3d.github.io/
 logo: 'https://avatars2.githubusercontent.com/u/19762154?s=460&v=4'
 
 # Site configurations
-gems:
+plugins:
   - jekyll-paginate
+  - uglifier
+  
 markdown: kramdown
 kramdown:
   input: GFM

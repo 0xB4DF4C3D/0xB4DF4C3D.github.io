@@ -5,7 +5,7 @@ date: "2018-02-28 20:05"
 category: [Python, Anti-pattern]
 ---
 
->**이 글은 [Python anti patterns : Bad except clauses order](https://docs.quantifiedcode.com/python-anti-patterns/correctness/bad_except_clauses_order.html) 의 내용을 정리한 것입니다.**
+>**이 글은 [Python anti patterns : Bad except clauses order](https://docs.quantifiedcode.com/python-anti-patterns/correctness/bad_except_clauses_order.html) 의 내용을 번역한 것입니다.**
 
 예외가 발생했을 때, Python은 발생한 예외 유형과 일치하는 첫번째 예외 처리 절을 찾을 것이다. 꼭 정확히 일치할 필요는 없고 예외 처리 절이 발생한 예외의 부모 클래스라면 일치하게 된다. 예를 들어 `ZeroDivisionError` 예외가 발생하고 첫번째 예외 처리 절이 `Exception`이라면 `ZeroDivisionError`가 `Exception` 클래스의 자식 클래스므로 `Exception` 절이 실행된다. 따라서 더 세부적인 클래스의 예외 처리 절은 항상 그것들의 부모 클래스의 예외 처리 절 보다 앞에 두어 가능한 한 더 세부적이고 유용하게끔 해야 한다.
 

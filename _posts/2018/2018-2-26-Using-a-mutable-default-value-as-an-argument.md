@@ -5,7 +5,7 @@ title: Using a mutable default value as an argument
 category: [Python, Anti-pattern]
 ---
 
->**이 글은 [Python anti patterns : mutable default value as argument](https://docs.quantifiedcode.com/python-anti-patterns/correctness/mutable_default_value_as_argument.html) 의 내용을 정리한 것입니다.**
+>**이 글은 [Python anti patterns : mutable default value as argument](https://docs.quantifiedcode.com/python-anti-patterns/correctness/mutable_default_value_as_argument.html) 의 내용을 번역한 것입니다.**
 
 # 파라미터의 기본값으로 mutable한 값 사용하기
 

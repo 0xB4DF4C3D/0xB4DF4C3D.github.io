@@ -5,7 +5,7 @@ date: "2018-02-28 07:39"
 category: [Python, Anti-pattern]
 ---
 
->**이 글은 [Python anti patterns : Assigning a <i>lambda</i> expression to a variable](https://docs.quantifiedcode.com/python-anti-patterns/correctness/assigning_a_lambda_to_a_variable.html) 의 내용을 정리한 것입니다.**
+>**이 글은 [Python anti patterns : Assigning a <i>lambda</i> expression to a variable](https://docs.quantifiedcode.com/python-anti-patterns/correctness/assigning_a_lambda_to_a_variable.html) 의 내용을 번역한 것입니다.**
 
 `def` 대신 `lambda` 표현식을 쓰면 좋은 유일한 장점은 `lambda`가 더 큰 표현식 안에 익명함수로 삽입될 수 있다는 것이다. 만약 `lambda`에다가 이름을 붙이고 싶다면 차라리 그냥 `def`로 정의하는게 더 나은 선택이다.
 

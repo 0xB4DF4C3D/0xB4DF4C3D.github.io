@@ -5,7 +5,7 @@ date: "2018-02-27 06:10"
 category: Python
 ---
 
-> **이 글은 <http://techblog.en.klab-blogs.com/archives/19880026.html> 의 글을 정리한 것입니다.**
+> **이 글은 <http://techblog.en.klab-blogs.com/archives/19880026.html> 의 글을 번역한 것입니다.**
 
 
 # 배경
